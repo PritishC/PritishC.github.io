@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  #image: prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   #address: >
   #  <p>555 your office number</p>
@@ -18,8 +18,6 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am currently enrolled in the Masters by Research program at the CSE department, IIT Bombay. My chosen area is Intelligent Systems, and I am broadly interested in geometric deep learning, graph machine learning, network science and information diffusion. My research advisor is Prof. Abir De.
+Hi there! I am currently enrolled in the MS+PhD dual degree program at the CSE department, IIT Bombay. I am broadly interested in geometric deep learning, machine learning on graphs, and developing neural surrogates for hard problems. I am advised by Prof. Abir De and have had the fortune of working with expert collaborators on multiple projects.
 
-Prior to this, I worked as a full-stack software engineer at Instahyre, a recruitment startup whose product matches candidates to jobs in a hassle-free manner and with reasonably high accuracy. I was promoted to Head of Engineering for my contributions and had a great time there in general.
-
-PS: This is an experiment with the al-folio academic pages theme. Hopefully it works out.
+I graduated from the MS by research program here at IIT Bombay in June of 2024, and subsequently opted to continue as a PhD student. Prior to that, I worked as a full-stack software engineer at Instahyre, a recruitment startup whose product matches candidates to jobs in a hassle-free manner and with reasonably high accuracy. I was promoted to Head of Engineering for my contributions and had a great time there in general.
