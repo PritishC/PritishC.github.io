@@ -21,6 +21,8 @@ jobs:
       with:
         ruby-version: '3.1.0'
         bundler-cache: true
+    - name: Install Build Tools
+      run: sudo apt-get update && sudo apt-get install -y build-essential
     - name: Install deps
       run: |
         gem update --system
