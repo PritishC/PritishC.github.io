@@ -20,7 +20,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.1.0'
-        bundler-cache: true
+        bundler-cache: false
     - name: Install Build Tools
       run: sudo apt-get update && sudo apt-get install -y build-essential
     - name: Install deps
