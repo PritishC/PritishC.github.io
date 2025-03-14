@@ -18,6 +18,7 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
+    gem 'sass-embedded'
     gem 'nokogiri'
     gem 'google-protobuf'
     gem 'httparty'
