@@ -18,6 +18,6 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am currently enrolled in the MS+PhD dual degree program at the CSE department, IIT Bombay. I am broadly interested in geometric deep learning, machine learning on graphs, and developing neural surrogates for hard problems. I work with [Prof. Abir De](https://abir-de.github.io/) and [Prof. Soumen Chakrabarti](https://www.cse.iitb.ac.in/~soumen/), and have had the fortune of working with expert collaborators on multiple projects.
+Hi there! I am currently enrolled in the MS+PhD dual degree program at the CSE department, IIT Bombay. I am broadly interested in geometric deep learning, machine learning on graphs, and developing neural surrogates for hard problems. I am advised by [Prof. Abir De](https://abir-de.github.io/) and [Prof. Soumen Chakrabarti](https://www.cse.iitb.ac.in/~soumen/), and have had the fortune of working with expert collaborators on multiple projects.
 
 I graduated from the MS by research program here at IIT Bombay in June of 2024, advised by Prof. Abir, and subsequently opted to continue as a PhD student. Prior to that, I worked as a full-stack software engineer at Instahyre, a recruitment startup whose product matches candidates to jobs in a hassle-free manner and with reasonably high accuracy. I was promoted to Head of Engineering for my contributions and had a great time there in general.
