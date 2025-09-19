@@ -19,13 +19,12 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1.0'
+        ruby-version: '3.2.2'
         bundler-cache: false
     - name: Install Build Tools
       run: sudo apt-get update && sudo apt-get install -y build-essential
     - name: Install deps
       run: |
-        gem update --system
         gem install bundler
         bundle install
         npm install -g mermaid.cli
