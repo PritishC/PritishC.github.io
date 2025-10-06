@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '3.2.2'
+ruby '3.2.2' # keep it 3.2.2 for github pages, and use 3.4.2 to use bundler locally
 
 gem 'jekyll', '~> 4.4'
 gem 'webrick', '~> 1.8'       # for `jekyll serve` locally on Ruby 3
