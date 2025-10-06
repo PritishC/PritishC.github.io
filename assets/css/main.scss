@@ -13,3 +13,8 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+body {
+  font-size: 17px;    /* default is usually 15–16px */
+  line-height: 1.7;
+}
