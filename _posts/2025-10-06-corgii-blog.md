@@ -93,7 +93,29 @@ Graphs retrieved via token overlap are re-ranked using the alignment distance $d
 
 $$\mathcal{R}_q(\delta) = \{ G_c : S_{\square(G_q,G_c}) \geq \delta \},$$
 
-where $$\square \in \{\text{unif}, \text{impact+HM}, \text{impact+CM}\}$$.
+where $$\square \in \{\text{unif}, \text{impact}, \text{impact+HM}, \text{impact+CM}\}$$. Each of the impact score functions (other than vanilla impact) is described below.
+
+$$
+S_{\text{unif}}(G_q, G_c) = \sum_{u \in V_q} \mathbb{I}\!\left[\hat{\mathbf{z}}_q(u) \in \omega(G_c)\right]
+$$
+
+$$
+S_{\text{impact+HM}}(G_q, G_c) = \sum_{u \in V_q} 
+\sum_{\tau \in B_r(\hat{\mathbf{z}}_q(u))} 
+\text{Impact}_{\psi}\!\left(\tau, \mathbf{h}_q(u)\right)
+\mathbb{I}\!\left[\tau \in \omega(G_c)\right]
+$$
+
+$$
+S_{\text{impact+CM}}(G_c, G_q) = \sum_{u \in V_q} 
+\sum_{\tau \in \mathcal{N}_b(\hat{\mathbf{z}}_q(u))} 
+\text{sim}\!\left(\tau, \hat{\mathbf{z}}_q(u)\right)
+\text{Impact}_{\psi}\!\left(\tau, \mathbf{h}_q(u)\right)
+\mathbb{I}\!\left[\tau \in \omega(G_c)\right]
+$$
+
+Note that for simplicity, we overload the method signature of the Impact network and the sim function to accept both tokens and their corresponding discretized vectors. The uniform scheme does not apply any learned weighting. The impact+HM and impact+CM schemes involve training the impact networks with query multi-probing, of type Hamming or co-occurrence. The Hamming multi-probing scheme expands the query within a Hamming ball of radius $r$ bits. The co-occurrence multi-probing scheme expands to the top-$b$ tokens according to the sim values.
+
 
 ---
 
