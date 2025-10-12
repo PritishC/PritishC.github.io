@@ -12,7 +12,7 @@ tags:
 
 ## **Overview**
 
-**CoRGII** bridges the gap between neural and symbolic retrieval by combining the *semantic fidelity* of graph embeddings with the *efficiency* of inverted indices. It converts continuous graph features into discrete, indexable tokens and uses learned impact weighting and multi-probing to balance recall and speed.
+**CoRGII** bridges the gap between neural and classical retrieval by combining the *semantic fidelity* of graph embeddings with the *efficiency* of inverted indices. It converts continuous graph features into discrete, indexable tokens and uses learned impact weighting and multi-probing to balance accuracy and efficiency.
 
 ---
 
