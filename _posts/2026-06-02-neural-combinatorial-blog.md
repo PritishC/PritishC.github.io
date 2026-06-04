@@ -195,7 +195,7 @@ Before building or crediting a neural combinatorial method, we propose five ques
 1. Is there a discrete layer posing a gradient bottleneck in a larger learning pipeline?
 2. Do system-level serving constraints impose the need for neural embeddings?
 3. Could the combinatorial solver itself be augmented with neural capabilities, rather than replaced?
-4. If replacement is attempted: are all costs (label generation, training, retraining under shift) explicitly accounted for? Are any guarantees provided? [see paper]
+4. If replacement is attempted: are all costs (label generation, training, retraining under shift) explicitly accounted for? Are any guarantees provided? [[see paper](https://openreview.net/pdf?id=kTNN55uS0W)]
 5. Have the combinatorial decoder (if present) and simple structural heuristics been tested as baselines?
 
 If the answer to (1) and (2) is no, and (3) has not been considered, the bar for (4) and (5) should be very high. In practice, it rarely is.
