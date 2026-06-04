@@ -20,7 +20,7 @@ For supervised methods, generating ground-truth labels means running the corresp
 
 Yet another issue is the use of synthetic training data, which is not sampled from real-world distributions. One example of this is in neural TSP methods that spawn their instances by sampling points uniformly at random in the plane. This is a dealbreaker because the hardness of a combinatorial instance may depend on its structural properties — for e.g., graph planarity, treewidth, perfectness, geometric regularity. For Euclidean TSP, near-optimal polynomial-time approximation algorithm (PTAS) results are well-known (Arora, 1998). Maximum clique and graph coloring are polynomial-time on perfect graphs (Grotschel et al., 1984). Subgraph isomorphism simplifies on bounded-treewidth graphs (Eppstein, 2002). Thus, without characterizing where these synthetic instances sit in this landscape, one cannot tell whether they are evaluating neural methods on *genuinely hard instances* at all, or on distributions that classical methods already handle efficiently.
 
-Our position paper develops a costs-and-guarantees framework for deciding when neural surrogates are actually required for hard combinatorial problems. We omit that in this blog and instead focus on pertinent problems with existing neural approaches. Our goal is to draw attention to the gaps that have been overlooked so far.
+Our position paper develops a costs-and-guarantees accounting framework for such neural surrogates. We omit that in this blog and instead focus on pertinent problems with existing neural approaches. Our goal is to draw attention to the gaps that have been overlooked so far.
 
 ---
 
