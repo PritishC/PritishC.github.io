@@ -182,7 +182,7 @@ The justification for neural approximation stops there, however — it does not 
 </table>
 </div>
 
-The neural index is justified; the neural scorer is not. Such scrutiny should be applied more often before developing neural surrogates for hard problems.
+The neural index is justified; the neural scorer is not. Such scrutiny should be applied more often before developing wholesale neural replacements to classical solvers for hard problems.
 
 **Neural augmentation inside solvers.** Using a neural policy to guide branching in branch-and-bound, or to warm-start local search, is more defensible than outright solver replacement. The solver retains optimality certification; the neural component influences the search trajectory. The costs from our framework still apply — supervision is expensive, policies trained on one problem family may not transfer — but the failure mode is controllable in a way that end-to-end replacement is not.
 
